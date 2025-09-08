@@ -1,0 +1,7 @@
+posts:
+  - title: Blogs
+    url: /blogs/
+  - title: Python
+    url: /tech/python/
+  - title: Javascript
+    url: /tech/javascript

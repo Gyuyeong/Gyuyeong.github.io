@@ -29,9 +29,26 @@ url: "https://gyuyeong.github.io" # the base hostname & protocol for your site, 
 github_username:  Gyuyeong
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      author_profile: true
+      author: gyuyeong
+      sidebar:
+        nav: "posts"
+
+collections:
+  blogs:
+    output: true
+    permalink: /blogs/:name/
+  tech:
+    output: true
+    permalink: /tech/:name/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

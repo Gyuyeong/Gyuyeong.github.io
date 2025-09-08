@@ -1,0 +1,13 @@
+---
+layout: single
+title: Python
+---
+
+{% for item in site.tech %}
+  {% if item.category == "python" %}
+
+    <a href="{{ item.url }}" class="clickable-post-box">
+      <div class="title">{{ item.title }}</div>
+    </a>
+  {% endif %}
+{% endfor %}

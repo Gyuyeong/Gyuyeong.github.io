@@ -1,0 +1,7 @@
+gyuyeong:
+  name: "Gyuyeong Kwon"
+  location: "South Korea"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Gyuyeong"

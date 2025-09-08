@@ -1,0 +1,22 @@
+---
+---
+
+@import "minimal-mistakes";
+
+.clickable-post-box {
+  display: block;
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+  text-decoration: none;
+  color: inherit;
+}
+.clickable-post-box .title {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 0.25em;
+}
+.clickable-post-box .date {
+  color: #666;
+  margin-bottom: 0.5em;
+}
